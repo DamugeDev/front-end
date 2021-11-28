@@ -14,6 +14,14 @@ export default function Form() {
         <label className="form-label">Senha</label>
         <Input type="password" class="form-control" />
       </div>
+
+      <div className="radio-container mb-3">
+        <p>Entrar como:</p>
+        <div className="form-group mb-3">
+          <Input type="radio" name="adm" />
+          <Input type="radio" name="student" />
+        </div>
+      </div>
     </LoginForm>
   );
 }

@@ -19,4 +19,6 @@ export const LoginBody = styled.main`
 `;
 export const LoginForm = styled.form`
   /* background: red; */
+  .radio-container {
+  }
 `;
